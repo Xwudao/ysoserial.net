@@ -208,7 +208,7 @@ namespace ysoserial.Plugins
                 }
                 Console.WriteLine(payloadString);
                 Console.WriteLine("The content above is what we need");
-                Console.WriteLine("-----------");
+                Console.WriteLine("---------------");
             }
 
             if (isDebug)
