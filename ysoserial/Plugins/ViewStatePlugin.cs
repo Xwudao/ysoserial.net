@@ -206,6 +206,9 @@ namespace ysoserial.Plugins
                     Console.WriteLine("LosFormatter not supported.");
                     System.Environment.Exit(-1);
                 }
+                Console.WriteLine(payloadString);
+                Console.WriteLine("The content above is what we need");
+                Console.WriteLine("-----------");
             }
 
             if (isDebug)
